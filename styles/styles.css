@@ -1,6 +1,9 @@
 
 
-* {
+
+body {
+  display: block;
+  text-align: center;
   font-family: Piazzolla, Helvetica, sans-serif;
 }
 
@@ -9,43 +12,53 @@
 #main {
   display: flex;
   flex-wrap: wrap;
+  background-color: #e2e2e2;
 }
 
 #title {
   width: 100%;
-  height: 100px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
   font-weight: bold;
-  font-size: 40px;
-
+  font-size: 50px;
 }
 
 #sub-title {
   width: 100%;
-  height: 50px;
+  margin-top: -40px;
+  z-index: 2;
+  
   font-size: 20px;
   font-style: italic;
   font-weight: lighter;
 }
 
+#img-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+#image {
+  display: block;
+  width: 100%;
+}
+
+/*
+
+.img-cont img {
+  width: 100%;
+  display: block;
+}
+
+
+
 /* TABLET STYLES */
 
 
 /* DESKTOP STYLES */
-
-
-
-
-body {
-  display: block;
-  text-align: center;
-}
-
-#main {
-
-  background-color: #c0c0c075;
-}
