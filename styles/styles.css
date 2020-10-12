@@ -1,3 +1,14 @@
-
+/*
 body {
-  display: flex;
+  display: block;
+  text-align: center;
+}
+
+#main {
+  margin: 10px 30px;
+  padding-bottom: 49%;
+  border-radius: 1%;
+
+
+  background-color: darkgrey;
+}
