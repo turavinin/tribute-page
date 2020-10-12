@@ -104,7 +104,32 @@ strong {
   font-size: 20px;
 }
 
-/* TABLET STYLES */
-
-
 /* DESKTOP STYLES */
+
+@media only screen and (min-width: 960px) {
+  #main {
+   margin: 10px;
+   border-radius: 1%;
+  } 
+
+  #img-div {
+    display: block;
+  }
+
+  #image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #article {
+    padding-right: 500px;
+    padding-left: 500px;
+  }
+
+  #footer {
+    padding-right: 500px;
+    padding-left: 500px;
+  }
+}
+
