@@ -7,6 +7,10 @@ body {
   font-family: Piazzolla, Helvetica, sans-serif;
 }
 
+strong {
+  font-weight: bold;
+}
+
 /* MOBILE STYLES */
 
 #main {
@@ -48,6 +52,48 @@ body {
   display: block;
   width: 100%;
 }
+
+#img-caption {
+  padding: 15px;
+  font-style: normal;
+}
+
+#article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-title {
+  display: flex;
+  margin: 50px 10px;
+}
+
+.article-title > h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.article-timeline {
+  display: flex;
+  text-align: start;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#timeline {
+  list-style-type: disc;
+
+}
+
+#timeline > li {
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+
+
 
 /*
 
