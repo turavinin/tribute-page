@@ -92,17 +92,17 @@ strong {
   font-size: 16px;
 }
 
-
-
-
-/*
-
-.img-cont img {
-  width: 100%;
-  display: block;
+.article-quote {
+  display: flex;
+  margin: 40px 10px;
+  font-size: 20px;
 }
 
-
+#footer {
+  display: flex;
+  margin: 20px 30px;
+  font-size: 20px;
+}
 
 /* TABLET STYLES */
 
