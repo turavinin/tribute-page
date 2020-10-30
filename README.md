@@ -1,12 +1,6 @@
-Practice project (Proposed by FreeCodeCamp):
+# TRIBUTE PAGE TO DR. RENE FAVALORO
+# Description
 
-"Tribute page to Dr. René Favaloro"
+A tribute page to Dr. Favaloro reviewing the key years of his life. The page was made with HTML & CSS.
 
-Tools: 
-
- - HTML 
- - CSS
- - Git
- 
- Anton Turavinin. 
-
+### [Visit the page!](https://turavinin.github.io/tribute-page/)
